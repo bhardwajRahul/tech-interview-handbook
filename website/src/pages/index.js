@@ -703,12 +703,19 @@ function SponsorshipSection() {
       <div className="container">
         <div className="row">
           <div className="col col--8 col--offset-2">
-            <h2 className={classnames('margin-vert--lg', styles.sectionTitle)}>
-              Enjoying Tech Interview Handbook so far?
+            <h2 className="text--center margin-bottom--lg">
+              <span class="badge badge--primary">Advertise with us</span>
             </h2>
+            <h3 className={classnames('margin-vert--lg', styles.sectionTitle)}>
+              Interested in advertising on Tech Interview Handbook?
+            </h3>
             <p className={classnames(styles.sectionTagline)}>
-              Support this project by becoming a sponsor! Your logo/profile
-              picture will show up here with a link to your website.
+              Leverage on more than 200,000 monthly page views from 40,000 to
+              50,000 unique software engineers.
+            </p>
+            <p className={classnames(styles.sectionTagline)}>
+              Sponsors can choose any or all of the following positions to
+              advertise with us:
             </p>
             <div>
               <a
